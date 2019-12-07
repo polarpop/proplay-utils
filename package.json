@@ -1,6 +1,6 @@
 {
   "name": "@proplay/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities for the Proplay services",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "build:production": "npm run prestart && npm prune --production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Doug Schamberg",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^12.12.14",
@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/polarpop/proplay-utils/issues"
   },
-  "homepage": "https://github.com/polarpop/proplay-utils#readme"
+  "homepage": "https://github.com/polarpop/proplay-utils#readme",
+  "dependencies": {
+    "@apollo/federation": "^0.11.2",
+    "@proplay/type-graphql": "^0.17.5",
+    "apollo-graphql": "^0.3.5",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1"
+  }
 }

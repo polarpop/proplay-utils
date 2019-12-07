@@ -1,0 +1,1 @@
+export { buildFederatedSchema } from './buildFederatedSchema';
