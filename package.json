@@ -1,0 +1,27 @@
+{
+  "name": "@proplay/utils",
+  "version": "0.0.1",
+  "description": "Utilities for the Proplay services",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "prepublishOnly": "npm run build:production",
+    "build:production": "npm run prestart && npm prune --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "typescript": "^3.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polarpop/proplay-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/polarpop/proplay-utils/issues"
+  },
+  "homepage": "https://github.com/polarpop/proplay-utils#readme"
+}
